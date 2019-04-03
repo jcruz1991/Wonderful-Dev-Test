@@ -95,6 +95,7 @@ dl, ol, ul {
   animation: fade-in 1s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
 
 html, body {
+  position: relative;
   width: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -142,14 +143,15 @@ a {
   a:visited {
     color: inherit; }
 
-header {
-  position: fixed;
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  z-index: 999; }
-  header nav {
-    padding: 10px 0; }
-    header nav .nav-logo {
-      padding-left: 8%; }
+  z-index: 999;
+  padding: 10px 28px; }
+  nav .nav-logo {
+    padding-left: 8%; }
 
 #hero {
   position: relative;
