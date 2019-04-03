@@ -196,55 +196,55 @@ header {
       -ms-flex-basis: 1;
       flex-basis: 1;
       flex: 1; }
-    #hero .hero-row .left {
-      padding-left: 20px; }
-      #hero .hero-row .left h1,
-      #hero .hero-row .left p {
-        position: relative;
-        z-index: 1;
-        -webkit-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -moz-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -ms-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -o-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
-      #hero .hero-row .left h1 {
-        width: 563px; }
-      #hero .hero-row .left p {
-        color: #5D5D5D;
-        font-size: 18px;
-        opacity: 0.7;
-        padding-right: 53px; }
-    #hero .hero-row .right {
-      padding-left: 5%; }
-      #hero .hero-row .right .hero-card {
-        -webkit-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -moz-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -ms-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        -o-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-        box-shadow: 0 5px 20px 0 rgba(67, 76, 172, 0.3);
-        border-radius: 30px;
-        position: relative;
-        z-index: 1;
-        width: 325px;
-        height: 500px; }
-        #hero .hero-row .right .hero-card .card-img {
-          width: 100%;
-          height: 50%;
-          background: url("../images/hero-image.svg");
-          background-position: center center;
-          background-repeat: no-repeat;
-          background-size: cover; }
-        #hero .hero-row .right .hero-card .card-info {
-          width: 100%;
-          background: #E83267;
-          padding: 8% 7%; }
-          #hero .hero-row .right .hero-card .card-info h3 {
-            color: white; }
-          #hero .hero-row .right .hero-card .card-info p,
-          #hero .hero-row .right .hero-card .card-info a {
-            color: white;
-            opacity: 0.7; }
+      #hero .hero-row .hero-column:nth-child(1) {
+        padding-left: 20px; }
+        #hero .hero-row .hero-column:nth-child(1) h1,
+        #hero .hero-row .hero-column:nth-child(1) p {
+          position: relative;
+          z-index: 1;
+          -webkit-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -moz-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -ms-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -o-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+        #hero .hero-row .hero-column:nth-child(1) h1 {
+          width: 563px; }
+        #hero .hero-row .hero-column:nth-child(1) p {
+          color: #5D5D5D;
+          font-size: 18px;
+          opacity: 0.7;
+          padding-right: 53px; }
+      #hero .hero-row .hero-column:nth-child(2) {
+        padding-left: 5%; }
+        #hero .hero-row .hero-column:nth-child(2) .hero-card {
+          -webkit-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -moz-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -ms-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          -o-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+          box-shadow: 0 5px 20px 0 rgba(67, 76, 172, 0.3);
+          border-radius: 30px;
+          position: relative;
+          z-index: 1;
+          width: 325px;
+          height: 500px; }
+          #hero .hero-row .hero-column:nth-child(2) .hero-card .card-img {
+            width: 100%;
+            height: 50%;
+            background: url("../images/hero-image.svg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover; }
+          #hero .hero-row .hero-column:nth-child(2) .hero-card .card-info {
+            width: 100%;
+            background: #E83267;
+            padding: 8% 7%; }
+            #hero .hero-row .hero-column:nth-child(2) .hero-card .card-info h3 {
+              color: white; }
+            #hero .hero-row .hero-column:nth-child(2) .hero-card .card-info p,
+            #hero .hero-row .hero-column:nth-child(2) .hero-card .card-info a {
+              color: white;
+              opacity: 0.7; }
   #hero img,
   #hero svg {
     position: absolute; }
@@ -289,8 +289,7 @@ header {
     -moz-align-items: center;
     -ms-align-items: center;
     align-items: center; }
-    #hero .hero-row .left,
-    #hero .hero-row .right {
+    #hero .hero-row .hero-column:nth-child(1), #hero .hero-row .hero-column:nth-child(2) {
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -302,20 +301,20 @@ header {
       justify-content: center;
       -ms-flex-pack: center;
       height: 100vh; }
-    #hero .hero-row .left {
+    #hero .hero-row .hero-column:nth-child(1) {
       -webkit-flex-direction: column;
       -moz-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       padding: 0; }
-      #hero .hero-row .left h1,
-      #hero .hero-row .left p {
+      #hero .hero-row .hero-column:nth-child(1) h1,
+      #hero .hero-row .hero-column:nth-child(1) p {
         display: block;
         width: auto;
         text-align: center; }
-      #hero .hero-row .left p {
+      #hero .hero-row .hero-column:nth-child(1) p {
         padding-right: 0; }
-    #hero .hero-row .right {
+    #hero .hero-row .hero-column:nth-child(2) {
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -327,7 +326,7 @@ header {
       justify-content: center;
       -ms-flex-pack: center;
       padding: 0; }
-      #hero .hero-row .right .hero-card {
+      #hero .hero-row .hero-column:nth-child(2) .hero-card {
         margin: 0;
         margin-top: 23px; }
   #hero #top-svg {
