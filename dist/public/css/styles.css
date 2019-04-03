@@ -155,11 +155,11 @@ header {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 2% 8%;
   background: #F6FCFF; }
   #hero .hero-row {
     width: 100%;
     height: 100vh;
+    padding: 2% 8%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -248,31 +248,31 @@ header {
   #hero img,
   #hero svg {
     position: absolute; }
-  #hero #top-svg {
+  #hero .top-svg {
     top: -2%;
     left: 39%; }
-  #hero #left-svg {
+  #hero .left-svg {
     z-index: 1;
     top: 10%;
     left: 2%; }
-  #hero #bottom-svg {
+  #hero .bottom-svg {
     bottom: 0;
     left: -6%; }
-  #hero #top-right-svg {
+  #hero .top-right-svg {
     top: 0;
     right: 0;
     width: 25%; }
-  #hero #gray-right-svg {
-    right: -5%;
-    top: 13%; }
-  #hero #window-accent {
+  #hero .gray-right-svg {
+    right: -3%;
+    top: 10%; }
+  #hero .window-accent {
     bottom: 14%;
     right: 5%; }
-  #hero #bottom-gray-svg {
+  #hero .bottom-gray-svg {
     bottom: 0;
     left: 60%;
     transform: translateX(-50%); }
-  #hero #gray-left-svg {
+  #hero .gray-left-svg {
     left: 0;
     top: 34%;
     transform: translateY(-50%); }
@@ -434,6 +434,8 @@ header {
     bottom: 10%; }
 
 @media screen and (max-width: 39.9375em) {
+  #details .details-container h1 {
+    text-align: center; }
   #details .details-container .details-item {
     width: auto;
     margin: 24px 0;

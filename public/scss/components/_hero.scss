@@ -2,12 +2,12 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 2% 8%;
     background: $hero-background;
 
     .hero-row {
         width: 100%;
         height: 100vh;
+        padding: 2% 8%;
         @include flexbox();
         @include flex-direction(row);
         @include flex-wrap(wrap);
@@ -88,45 +88,45 @@
         position: absolute;
     }
 
-    #top-svg {
+    .top-svg {
         top: -2%;
         left: 39%;
     }
 
-    #left-svg {
+    .left-svg {
         z-index: 1;
         top: 10%;
         left: 2%;
     }
 
-    #bottom-svg {
+    .bottom-svg {
         bottom: 0;
         left: -6%;
     }
 
-    #top-right-svg {
+    .top-right-svg {
         top: 0;
         right: 0;
         width: 25%;
     }
 
-    #gray-right-svg {
-        right: -5%;
-        top: 13%;
+    .gray-right-svg {
+        right: -3%;
+        top: 10%;
     }
 
-    #window-accent {
+    .window-accent {
         bottom: 14%;
         right: 5%;
     }
 
-    #bottom-gray-svg {
+    .bottom-gray-svg {
         bottom: 0;
         left: 60%;
         transform: translateX(-50%);
     }
 
-    #gray-left-svg {
+    .gray-left-svg {
         left: 0;
         top: 34%;
         transform: translateY(-50%);
