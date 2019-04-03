@@ -263,15 +263,14 @@ header {
     right: 0;
     width: 25%; }
   #hero .gray-right-svg {
-    right: -3%;
-    top: 10%; }
+    right: -4%;
+    top: 5%; }
   #hero .window-accent {
     bottom: 14%;
     right: 5%; }
   #hero .bottom-gray-svg {
-    bottom: 0;
-    left: 60%;
-    transform: translateX(-50%); }
+    bottom: -8px;
+    left: 37%; }
   #hero .gray-left-svg {
     left: 0;
     top: 34%;
