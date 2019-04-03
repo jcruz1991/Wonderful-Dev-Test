@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $open-sans-font;
+    color: $nile-blue;
+    font-weight: 700;
+}
+
+h1 {
+    line-height: 68px;
+    font-size: 60px;
+    letter-spacing: 0.77px;
+}
+
+p {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 33px;
+    letter-spacing: 0.23px;
+    margin: 0;
+}
+
+@include mediaSm {
+    h1 {
+        line-height: 38px;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 16px;
+        opacity: 0.7;
+        padding-right: 23px;
+    }
+}

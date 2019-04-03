@@ -1,0 +1,48 @@
+// font family
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+// font
+$open-sans-font: 'Open Sans', sans-serif;
+// colors
+$nile-blue: #183A4F;
+$dark-gray: #5D5D5D;
+$cerise: #E83267;
+$hero-background: #F6FCFF;
+$details-background: #07445E;
+
+
+dl, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+//Media query mixins
+@mixin mediaSm {
+    @media screen and (max-width: 39.9375em) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (min-width: 40em) {
+        @content;
+    }
+}
+
+//Media query mixins
+@mixin mediaMdOnly {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 64em) {
+        @content;
+    }
+}
+
+@mixin mediaLgOnly {
+    @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+        @content;
+    }
+}

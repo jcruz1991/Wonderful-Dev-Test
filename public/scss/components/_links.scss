@@ -1,0 +1,10 @@
+a {
+    color: inherit;
+    &:hover, &:focus {
+        text-decoration: none;
+    }
+
+    &:visited {
+        color: inherit;
+    }
+}

@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const imagemin = require('gulp-imagemin');
 
 
 // Task to run scss files to css
@@ -16,10 +17,25 @@ function style() {
     );
 }
 
+// Task to run image minify
+function images() {
+    return (
+        gulp.src("./public/images/*")
+        .pipe(imagemin())
+        .pipe(gulp.dest("./dist/public/images/"))
+    )
+}
+
 // watch scss files for any changes and will update
-function watch(){
+function watchScss() {
     gulp.watch('./public/scss/**/*.scss', style);
 }
-    
+
+function watchImages() {
+    gulp.watch('./public/images/*"', images);
+}
+
 exports.style = style;
-exports.watch = watch
+exports.images = images;
+exports.watchScss = watchScss;
+exports.watchImages = watchImages;

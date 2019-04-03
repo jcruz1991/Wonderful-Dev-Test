@@ -1,0 +1,218 @@
+#hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2% 8%;
+    background: $hero-background;
+
+    .hero-row {
+        width: 100%;
+        height: 100vh;
+        @include flexbox();
+        @include flex-direction(row);
+        @include flex-wrap(wrap);
+        @include justify-content(center);
+        @include align-items(center);
+
+        .hero-column {
+            @include flex-grow(1);
+            @include flex-shrink(1);
+            @include flex-basis(1);
+            flex: 1;
+        }
+
+        .left {
+            padding-left: 20px;
+
+            h1,
+            p {
+                position: relative;
+                z-index: 1;
+                @include animation(focus-in 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both);
+            }
+
+            h1 {
+                width: 563px;
+            }
+
+            p {
+                color: $dark-gray;
+                font-size: 18px;
+                opacity: 0.7;
+                padding-right: 53px;
+            }
+        }
+
+        .right {
+            padding-left: 5%;
+
+            .hero-card {
+                @include animation(focus-in 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both);
+                box-shadow: 0 5px 20px 0 rgba(67, 76, 172, 0.3);
+                border-radius: 30px;
+                position: relative;
+                z-index: 1;
+                width: 325px;
+                height: 500px;
+
+                .card-img {
+                    width: 100%;
+                    height: 50%;
+                    background: url('../images/hero-image.svg');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .card-info {
+                    width: 100%;
+                    background: $cerise;
+                    padding: 8% 7%;
+
+                    h3 {
+                        color: white;
+                    }
+
+                    p,
+                    a {
+                        color: white;
+                        opacity: 0.7;
+                    }
+                }
+            }
+        }
+    }
+
+    img,
+    svg {
+        position: absolute;
+    }
+
+    #top-svg {
+        top: -2%;
+        left: 39%;
+    }
+
+    #left-svg {
+        z-index: 1;
+        top: 10%;
+        left: 2%;
+    }
+
+    #bottom-svg {
+        bottom: 0;
+        left: -6%;
+    }
+
+    #top-right-svg {
+        top: 0;
+        right: 0;
+        width: 25%;
+    }
+
+    #gray-right-svg {
+        right: -5%;
+        top: 13%;
+    }
+
+    #window-accent {
+        bottom: 14%;
+        right: 5%;
+    }
+
+    #bottom-gray-svg {
+        bottom: 0;
+        left: 60%;
+        transform: translateX(-50%);
+    }
+
+    #gray-left-svg {
+        left: 0;
+        top: 34%;
+        transform: translateY(-50%);
+    }
+}
+
+@include mediaSm {
+    #hero {
+        .hero-row {
+            height: 100%;
+            @include flexbox();
+            @include align-items(center);
+
+            .left,
+            .right {
+                @include flexbox();
+                @include justify-content(center);
+                height: 100vh;
+            }
+
+            .left {
+                @include flex-direction(column);
+                padding: 0;
+
+                h1,
+                p {
+                    display: block;
+                    width: auto;
+                    text-align: center;
+                }
+
+                p {
+                    padding-right: 0;
+                }
+            }
+
+            .right {
+                @include flexbox();
+                @include justify-content(center);
+                padding: 0;
+
+                .hero-card {
+                    margin: 0;
+                    margin-top: 23px;
+                }
+            }
+        }
+
+        #top-svg {
+            top: 0;
+            left: 30%;
+            z-index: 1;
+        }
+
+        #left-svg {
+            top: 8%;
+            left: -3%;
+        }
+
+        #bottom-svg {
+            bottom: -3px;
+            left: -21%;
+            z-index: 1;
+        }
+
+        #top-right-svg {
+            top: 0%;
+            right: -5%;
+        }
+
+        #gray-right-svg {
+            right: -14%;
+            top: 1%;
+        }
+
+        #window-accent {
+            bottom: 22%;
+            right: 5%;
+        }
+
+        #bottom-gray-svg {
+            display: none;
+        }
+
+        #gray-left-svg {
+            display: none;
+        }
+    }
+}

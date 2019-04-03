@@ -1,0 +1,53 @@
+<svg width="416px" height="201px" viewBox="0 0 416 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #Page-1 {
+            -webkit-animation: swing-in-right-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
+	        animation: swing-in-right-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) 0.2s both;
+        }
+
+        /**
+        * ----------------------------------------
+        * animation swing-in-right-fwd
+        * ----------------------------------------
+        */
+        @-webkit-keyframes swing-in-right-fwd {
+            0% {
+                -webkit-transform: rotateY(-100deg);
+                        transform: rotateY(-100deg);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 1;
+            }
+        }
+        @keyframes swing-in-right-fwd {
+            0% {
+                -webkit-transform: rotateY(-100deg);
+                        transform: rotateY(-100deg);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 1;
+            }
+        }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev-Test-Screen-1" transform="translate(-1024.000000, 0.000000)" fill="#07445E">
+            <g id="bg-shapes" transform="translate(-29.000000, -280.000000)">
+                <polygon id="Fill-1-Copy-6" points="1401.01032 0 988 242.631122 1401.01032 480.100504 1814 240.025795"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

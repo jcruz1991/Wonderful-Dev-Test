@@ -1,0 +1,168 @@
+#details {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: $details-background;
+
+
+    .details-container {
+        padding: 29% 5%;
+
+        h1 {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .details-item {
+            margin-top: 10px;
+            width: 540px;
+            height: auto;
+            z-index: 1;
+            position: relative;
+            @include flexbox();
+            @include align-items(center);
+
+            .details-count {
+                font-size: 60px;
+                font-weight: 700;
+                margin-left: -19px;
+            }
+
+            .details-info {
+                font-size: 18px;
+                padding: 0 25px;
+            }
+
+            &:nth-child(odd) {
+                .details-count {
+                    color: white;
+                }
+
+                .details-info {
+                    color: white;
+                    opacity: 0.7;
+                }
+            }
+
+            &:nth-child(even) {
+                border-radius: 5px;
+                background: white;
+                box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.4);
+
+                .details-count {
+                    color: $cerise;
+                }
+            }
+        }
+    }
+
+    .phone-img {
+        z-index: 1;
+    }
+
+    .svg {
+        position: absolute;
+    }
+
+    .top-center-cluster {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .fill-top {
+        top: 0;
+        left: 10%;
+    }
+
+    .fill-top-right {
+        top: 0;
+        right: 0;
+    }
+
+    .person-bg {
+        top: 5%;
+        right: 8%;
+    }
+
+    .fill-left {
+        top: 15%;
+        left: -2%;
+    }
+
+    .bottom-left-face {
+        left: 0;
+        bottom: 30%;
+    }
+
+    .fill-bottom {
+        bottom: 0;
+        left: 30%;
+    }
+
+    .fill-bottom-sm {
+        bottom: 0;
+        left: 48%;
+    }
+
+    .fill-bottom-light {
+        bottom: 0;
+        left: 54%;
+    }
+
+    .bottom-right-cluster {
+        right: 0;
+        bottom: 10%;
+    }
+}
+
+@include mediaSm {
+    #details {
+        .details-container {
+            .details-item {
+                width: auto;
+                @include flex-direction(column);
+
+                .details-count {
+                    margin-top: -43px;
+                }
+
+                .details-info {
+                    text-align: center;
+                    padding: 12px 25px;
+                }
+            }
+        }
+
+        .phone-img {
+            width: 85%;
+        }
+
+        .fill-top-right {
+            top: 65%;
+            right: 60%;
+        }
+
+        .person-bg {
+            top: 67%;
+            right: 50%;
+        }
+
+        .bottom-left-face {
+            bottom: 0;
+        }
+
+        .fill-bottom {
+            left: 12%;
+        }
+
+        .fill-bottom-sm {
+            left: 70%;
+        }
+
+        .fill-bottom-light {
+            bottom: 2px;
+            left: 90%;
+        }
+    }
+}

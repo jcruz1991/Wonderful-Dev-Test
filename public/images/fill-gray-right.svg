@@ -1,0 +1,53 @@
+<svg width="369px" height="568px" viewBox="0 0 369 804" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #Page-1 {
+            -webkit-animation: swing-in-right-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-right-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        }
+
+        /**
+        * ----------------------------------------
+        * animation swing-in-right-fwd
+        * ----------------------------------------
+        */
+        @-webkit-keyframes swing-in-right-fwd {
+            0% {
+                -webkit-transform: rotateY(-100deg);
+                        transform: rotateY(-100deg);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 1;
+            }
+        }
+        @keyframes swing-in-right-fwd {
+            0% {
+                -webkit-transform: rotateY(-100deg);
+                        transform: rotateY(-100deg);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: right;
+                        transform-origin: right;
+                opacity: 1;
+            }
+        }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.097265625">
+        <g id="Dev-Test-Screen-1" transform="translate(-1071.000000, -159.000000)" fill="#e6ecef">
+            <g id="bg-shapes" transform="translate(-29.000000, -280.000000)">
+                <polygon id="Fill-2-Copy-5" points="1100 650.333333 1100 1243 1619 946.636475 1619 354"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

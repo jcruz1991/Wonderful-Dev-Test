@@ -1,14 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./dist/public/css/styles.css">
     <title>Dev Test</title>
 </head>
+
 <body>
-    <section id="landing">
+    <header>
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="nav-logo">
+                        <img data-lazy="./public/images/logo-dark.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <!-- SVG Images for hero section-->
+        <img data-lazy="./public/images/top-img.svg" alt="top image" id="top-svg">
+        <img data-lazy="./public/images/upper-left-img.svg" alt="upper left" id="left-svg">
+        <img data-lazy="./public/images/bottom-left-img.svg" alt="bottom left" id="bottom-svg">
+        <img data-lazy="./public/images/fill-top-right.svg" alt="top right" id="top-right-svg">
+        <img data-lazy="./public/images/fill-gray-right.svg" alt="gray right" id="gray-right-svg">
+        <img data-lazy="./public/images/window-accent.svg" alt="window" id="window-accent">
+        <img data-lazy="./public/images/fill-bottom-gray.svg" alt="bottom gray" id="bottom-gray-svg">
+        <img data-lazy="./public/images/fill-left-gray.svg" alt="" id="gray-left-svg">
+        <!-- End of svg images hero section-->
+        <div class="hero-row">
+            <div class="hero-column left">
+                <h1>Lorem ipsum dolor sit amet, <br> consec tetur adip</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, nullam efficitur lectus eros</p>
+            </div>
+            <div class="hero-column right">
+                <div class="hero-card">
+                    <div class="card-img">
+                    </div>
+                    <div class="card-info">
+                        <h3>Johanna Greene</h3>
+                        <p>Product Designer</p>
+                        <p>Wonderful</p>
+                        <p>(808) 909-0011</p>
+                        <p>JGreene@gmail.com</p>
+                        <p><a href="#">http://www.Greenelikethecolor.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <section id="details">
+        <!-- SVG Images for details section-->
+        <img data-lazy="./public/images/details/fill-top.svg" alt="fill top" class="svg fill-top">
+        <img data-lazy="./public/images/details/top-center-cluster.svg" alt="top center cluster"
+            class="svg top-center-cluster">
+        <img data-lazy="./public/images/details/fill-top-right.svg" alt="fill top right" class="svg fill-top-right">
+        <img data-lazy="./public/images/details/person-bg.svg" alt="person bg" class="svg person-bg">
+        <img data-lazy="./public/images/details/fill-left.svg" alt="fill left" class="svg fill-left">
+        <img data-lazy="./public/images/details/bottom-left-face.svg" alt="fill bottom left face"
+            class="svg bottom-left-face">
+        <img data-lazy="./public/images/details/fill-bottom.svg" alt="fill bottom" class="svg fill-bottom">
+        <img data-lazy="./public/images/details/fill-bottom-sm.svg" alt="fill bottom small" class="svg fill-bottom-sm">
+        <img data-lazy="./public/images/details/fill-bottom-light.svg" alt="fill bottom light"
+            class="svg fill-bottom-light">
+        <img data-lazy="./public/images/details/bottom-right-cluster.svg" alt="bottom right cluster"
+            class="svg bottom-right-cluster">
+        <!-- End of svg images details section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="details-container d-flex flex-column h-100 justify-content-center">
+                        <h1 class="text-center">Lorem ipsum</h1>
+                        <ul>
+                            <li class="details-item">
+                                <img class="details-img" data-lazy="./public/images/details/details-image-1.svg"
+                                    alt="details image one">
+                                <span class="details-count">1</span>
+                                <p class="details-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, nullam
+                                </p>
+                            </li>
+                            <li class="details-item">
+                                <img class="details-img" data-lazy="./public/images/details/details-image-2.svg"
+                                    alt="details image two">
+                                <span class="details-count">2</span>
+                                <p class="details-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, nullam
+                                    efficitur lectus eros
+                                </p>
+                            </li>
+                            <li class="details-item">
+                                <img class="details-img" data-lazy="./public/images/details/details-image-3.svg"
+                                    alt="details image three">
+                                <span class="details-count">3</span>
+                                <p class="details-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, nullam
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex h-100 justify-content-center align-self-center">
+                    <img class="phone-img" data-lazy="./public/images/details/phone.svg" alt="phone">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- Custom JS -->
+    <script src="./public/js/main.js"></script>
 </body>
+
 </html>

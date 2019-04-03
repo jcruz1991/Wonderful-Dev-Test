@@ -1,0 +1,48 @@
+<svg width="61px" height="99px" viewBox="0 0 61 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #Page-1 {
+            -webkit-animation: flip-in-diag-1-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+	        animation: flip-in-diag-1-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+        }
+
+                /**
+        * ----------------------------------------
+        * animation flip-in-diag-1-tr
+        * ----------------------------------------
+        */
+        @-webkit-keyframes flip-in-diag-1-tr {
+            0% {
+                -webkit-transform: rotate3d(1, 1, 0, -80deg);
+                        transform: rotate3d(1, 1, 0, -80deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotate3d(1, 1, 0, 0deg);
+                        transform: rotate3d(1, 1, 0, 0deg);
+                opacity: 1;
+            }
+        }
+        @keyframes flip-in-diag-1-tr {
+            0% {
+                -webkit-transform: rotate3d(1, 1, 0, -80deg);
+                        transform: rotate3d(1, 1, 0, -80deg);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotate3d(1, 1, 0, 0deg);
+                        transform: rotate3d(1, 1, 0, 0deg);
+                opacity: 1;
+            }
+        }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dev-Test-Screen-1" transform="translate(-1320.000000, -775.000000)" fill="#041D29">
+            <g id="window-accent" transform="translate(1320.000000, 775.000000)">
+                <polygon id="Fill-2-Copy-8" points="38.0237568 12.5464845 38.0237568 37.6394534 60.8380108 25.0916906 60.8380108 0"></polygon>
+                <polygon id="Fill-2-Copy-9" points="38.0237568 54.3762979 38.0237568 79.4692669 60.8380108 66.9215041 60.8380108 41.8298135"></polygon>
+                <polygon id="Fill-2-Copy-10" points="0 73.199714 0 98.2926829 22.8142541 85.7449202 22.8142541 60.6532295"></polygon>
+                <polygon id="Fill-2-Copy-11" points="0 31.3699005 0 56.4628695 22.8142541 43.9151067 22.8142541 18.8234161"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

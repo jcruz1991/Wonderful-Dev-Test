@@ -1,0 +1,53 @@
+<svg width="215px" height="370px" viewBox="0 0 215 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #Page-1 {
+            -webkit-animation: swing-in-left-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+	        animation: swing-in-left-fwd 1s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+        }
+
+        /**
+        * ----------------------------------------
+        * animation swing-in-left-fwd
+        * ----------------------------------------
+        */
+        @-webkit-keyframes swing-in-left-fwd {
+            0% {
+                -webkit-transform: rotateY(100deg);
+                        transform: rotateY(100deg);
+                -webkit-transform-origin: left;
+                        transform-origin: left;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: left;
+                        transform-origin: left;
+                opacity: 1;
+            }
+        }
+        @keyframes swing-in-left-fwd {
+            0% {
+                -webkit-transform: rotateY(100deg);
+                        transform: rotateY(100deg);
+                -webkit-transform-origin: left;
+                        transform-origin: left;
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                        transform: rotateY(0);
+                -webkit-transform-origin: left;
+                        transform-origin: left;
+                opacity: 1;
+            }
+        }
+    </style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.05">
+        <g id="Dev-Test-Screen-1" transform="translate(0.000000, -157.000000)" fill="#f2f4f5">
+            <g id="bg-shapes" transform="translate(-29.000000, -280.000000)">
+                <polygon id="Fill-2-Copy-4" points="0 577.333333 0 858 244 717.652369 244 437"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
