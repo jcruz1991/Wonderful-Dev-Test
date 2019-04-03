@@ -153,6 +153,9 @@ nav {
   nav .nav-logo {
     padding-left: 8%; }
 
+#light-nav {
+  padding: 72px 28px; }
+
 #hero {
   position: relative;
   width: 100%;
@@ -224,7 +227,7 @@ nav {
           -ms-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
           -o-animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
           animation: focus-in 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-          box-shadow: 0 5px 20px 0 rgba(67, 76, 172, 0.3);
+          box-shadow: 0px 2px 34px 0px rgba(0, 0, 0, 0.75);
           border-radius: 30px;
           position: relative;
           z-index: 1;
@@ -399,7 +402,7 @@ nav {
         #details .details-container .details-item:nth-child(even) .details-count {
           color: #E83267; }
   #details .phone-img {
-    z-index: 1; }
+    width: 90%; }
   #details .svg {
     position: absolute; }
   #details .top-center-cluster {

@@ -10,7 +10,6 @@ var lazyLoad = function (targets) {
             if (entry.isIntersecting) {
                 var img = entry.target;
                 if(img.classList.contains('svg') || img.classList.contains('phone-img')) {
-                    console.log(img);
                     img.classList.add('fade-in');
                 }
                 const src = img.getAttribute('data-lazy');
