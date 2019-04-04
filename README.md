@@ -4,16 +4,6 @@ Wonderful UI/UX challenge.
 
 ## View Page
 
-### Option 1
-Clone respositor.
-
-Enter to root directory of the folder and open index.html.
-
-### Option 2
-Clone respositor.
-
-Enter to root directory of the folder and open index.html.
-
 1. Open html file
     1. Clone repository
     2. Enter root directory of folder
@@ -27,3 +17,5 @@ Enter to root directory of the folder and open index.html.
 
 ## Screenshots
 ![picture alt](https://github.com/jcruz1991/Wonderful-Dev-Test/blob/master/hero.png)
+
+![picture alt](https://github.com/jcruz1991/Wonderful-Dev-Test/blob/master/hero-2.png)
