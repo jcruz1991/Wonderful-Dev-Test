@@ -9,7 +9,7 @@ var lazyLoad = function (targets) {
             // check if entry is in view
             if (entry.isIntersecting) {
                 var img = entry.target;
-                if(img.classList.contains('svg') || img.classList.contains('phone-img')) {
+                if(img.classList.contains('details-background-img') || img.classList.contains('phone-img')) {
                     img.classList.add('fade-in');
                 }
                 const src = img.getAttribute('data-lazy');
