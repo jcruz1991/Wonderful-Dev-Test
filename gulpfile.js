@@ -1,8 +1,24 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const imagemin = require('gulp-imagemin');
+const sourcemaps = require('gulp-sourcemaps');
+const concat = require('gulp-concat');
+const gutil = require('gulp-util');
+const minify = require('gulp-minify');
 
 
+// minify js file
+function js() {
+    return (gulp.src('./public/js/**/*.js')
+        .pipe(concat('main.js'))
+        .pipe(minify())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('./dist/public/js/'))
+        .on('error', function (err) {
+            gutil.log(gutil.colors.red('[Error]'), err.toString());
+        })
+    );
+}
 // Task to run scss files to css
 function style() {
     return (
@@ -20,7 +36,7 @@ function style() {
 // Task to run image minify
 function images() {
     return (
-        gulp.src("./public/images/*")
+        gulp.src("./public/images/**/*")
         .pipe(imagemin())
         .pipe(gulp.dest("./dist/public/images/"))
     )
@@ -39,3 +55,4 @@ exports.style = style;
 exports.images = images;
 exports.watchScss = watchScss;
 exports.watchImages = watchImages;
+exports.js = js;
