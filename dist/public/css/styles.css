@@ -334,30 +334,30 @@ nav {
       #hero .hero-row .hero-column:nth-child(2) .hero-card {
         margin: 0;
         margin-top: 23px; }
-  #hero #top-svg {
-    top: 0;
+  #hero .top-svg {
+    top: -7px;
     left: 30%;
     z-index: 1; }
-  #hero #left-svg {
+  #hero .left-svg {
     top: 8%;
     left: -3%; }
-  #hero #bottom-svg {
+  #hero .bottom-svg {
     bottom: -3px;
     left: -21%;
     z-index: 1; }
-  #hero #top-right-svg {
+  #hero .top-right-svg {
     top: 0%;
     right: -5%; }
-  #hero #gray-right-svg {
+  #hero .gray-right-svg {
     right: -14%;
     top: 1%; }
-  #hero #window-accent {
+  #hero .window-accent {
     bottom: 60%;
     right: 5%; }
-  #hero #bottom-gray-svg {
-    display: none; }
-  #hero #gray-left-svg {
-    display: none; } }
+  #hero .bottom-gray-svg {
+    left: -15%; }
+  #hero .gray-left-svg {
+    top: 56%; } }
 
 #details {
   position: relative;

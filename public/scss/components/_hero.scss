@@ -178,44 +178,44 @@
             }
         }
 
-        #top-svg {
-            top: 0;
+        .top-svg {
+            top: -7px;
             left: 30%;
             z-index: 1;
         }
 
-        #left-svg {
+        .left-svg {
             top: 8%;
             left: -3%;
         }
 
-        #bottom-svg {
+        .bottom-svg {
             bottom: -3px;
             left: -21%;
             z-index: 1;
         }
 
-        #top-right-svg {
+        .top-right-svg {
             top: 0%;
             right: -5%;
         }
 
-        #gray-right-svg {
+        .gray-right-svg {
             right: -14%;
             top: 1%;
         }
 
-        #window-accent {
+        .window-accent {
             bottom: 60%;
             right: 5%;
         }
 
-        #bottom-gray-svg {
-            display: none;
+        .bottom-gray-svg {
+            left: -15%;
         }
 
-        #gray-left-svg {
-            display: none;
+        .gray-left-svg {
+            top: 56%;
         }
     }
 }
