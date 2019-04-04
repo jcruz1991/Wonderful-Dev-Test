@@ -26,4 +26,4 @@ Enter to root directory of the folder and open index.html.
 3. View website on Heroku: [Heroku Link](https://tranquil-tor-93687.herokuapp.com/ "Herku Link")
 
 ## Screenshots
-![picture alt](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg)
+![picture alt](https://github.com/jcruz1991/Wonderful-Dev-Test/blob/master/hero.png)
